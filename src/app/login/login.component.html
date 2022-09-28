@@ -1,0 +1,7 @@
+<form [formGroup]="loginfrm"(ngSubmit)="checkUser()">
+    username :<input type="text" autocomplete="off" id ="uname" name ="uname" formControlName="uname">
+    password: <input type="password"id ="pwd" name ="pwd" formControlName="pwd">
+    <div>
+        <button type="submit">login</button>
+    </div>
+</form>
